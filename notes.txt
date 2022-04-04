@@ -24,3 +24,17 @@ TESTING
 - commit and push repo to github prior to making any changes
 - create a separate branch for each method
 
+Branch
+try-orm-drop
+https://stackoverflow.com/questions/48488642/how-can-i-delete-database-table-in-django
++ ./manage.py dbshell
++ DROP TABLE shapes_deletethistable;
+This solution is not sufficient.
+
+Branch
+try-remove-class
+https://www.dev2qa.com/how-to-drop-change-tables-from-sqlite3-database-in-django/
++ remove DeleteThisTable model from models.py file
++ remove DeleteThisTable from admin.py file and ALL other instances of wherever this class is used)
++ ./manage.py makemigrations shapes
++ ./manage.py migrate

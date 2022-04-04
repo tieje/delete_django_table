@@ -1,10 +1,9 @@
 from django.contrib import admin
-from .models import Shape, DeleteThisTable
+from .models import Shape
 # Register your models here.
 
 models = [
-    Shape,
-    DeleteThisTable
+    Shape
 ]
 
 admin.site.register(models)
