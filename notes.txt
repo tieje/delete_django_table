@@ -1,0 +1,26 @@
+4/4/2022
+
+Initial Set Up
+
++ pipenv install django
++ pipenv shell
++ pipenv install autopep8 ipython django-stubs mypy --dev
++ django-admin startproject config .
++ ./manage.py startapp shapes
++ add 'shapes.app.ShapesConfig' to settings
++ create models
++ add models to shapes/admin.py
++ ./manage.py migrate
++ ./manage.py makemigrations shapes
++ ./manage.py migrate
++ ./manage.py createsuper <<You superuser>>
+    toj
+    1234
++ ./manage.py runserver
++ Add some objects if you'd like
+CORE IS COMPLETE
+
+TESTING
+- commit and push repo to github prior to making any changes
+- create a separate branch for each method
+

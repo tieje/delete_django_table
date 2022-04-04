@@ -1,0 +1,8 @@
+{
+    "mypy.runUsingActiveInterpreter": true,
+    "python.defaultInterpreterPath": "/Users/thomasfrancis/.local/share/virtualenvs/delete_django_table-T8mH2oqR/bin/python",
+    "python.pipenvPath": "/Library/Frameworks/Python.framework/Versions/3.10/bin/pipenv",
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "/Users/thomasfrancis/.local/share/virtualenvs/delete_django_table-T8mH2oqR/bin/autopep8",
+    "editor.tabSize": 4,
+}
