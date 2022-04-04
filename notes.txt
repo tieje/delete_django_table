@@ -24,3 +24,10 @@ TESTING
 - commit and push repo to github prior to making any changes
 - create a separate branch for each method
 
+Branch
+try-orm-drop
++ ./manage.py dbshell
++ DROP TABLE shapes_deletethistable;
+This solution is not sufficient.
+
+Branch
